@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin:0;
+}
+#header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+#logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+#vila {
+    height: 350px;
+    width: 222px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px #545454;
+}
+#burguer {
+    display: none;
+}
+#menu {
+    font-family: "Bauhaus 93";
+    background-color: #545454;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#menu li {
+    padding: 15px;
+}
+#conteudoPrincipal{
+    font-family: "Bauhaus 93";
+    height: 449px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsfooter {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.abas {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+}
+.abas:hover {
+    color: #FFD700;
+}
+#conteudoJogadores{
+    background-color: #006983;
+    height: auto;
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: #000000;
+}
+#texto{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Bauhaus 93";
+    font-size: 45px;
+    font-weight: 300;
+}
+#conteudoSocio{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.inputs{
+    margin-bottom: 15px;
+    color: #333333;
+}
+.inputs label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.inputs input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #c0c0c0;
+}
+.inputs input[type="submit"] {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.inputs input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.inputs input[type="submit"]:active {
+    background-color: #3e8e41;
+}
+#maptext{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Times New Roman";
+
+}
+#mapa iframe{
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #c0c0c0;
+}
+.texto{
+    font-family: "Bauhaus 93";
+    text-align: center;
+    padding: 30px;
+}
+.uniformes{
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    text-align: center;
+    width: auto;
+}
+.descricao{
+    font-family: "Times New Roman";
+}
+#conteudoUniformes{
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+@media (max-width: 480px) {
+    #conteudoPrincipal {
+        font-family: "Bauhaus 93", sans-serif;
+        width: 100%;
+        height: 449px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #mensagem {
+        display: block;
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #vila {
+        display: block;
+        width: 90%;
+        height: auto;
+        max-width: 222px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 8px rgba(84, 84, 84, 0.6);
+    }
+
+    #conteudoSocio {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    #mapa iframe {
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #c0c0c0;
+    }
+
+    .uniformes {
+        height: 300px;
+        width: 300px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #burguer {
+        color: white;
+        background-color: #545454;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #burguer:hover {
+        background-color: white;
+        color: #545454;
+    }
+
+    #menu {
+        font-family: "Bauhaus 93";
+        height: 200px;
+        background-color: #545454;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline;
+        list-style-type: none;
+        color: whitesmoke;
+    }
+}
+@media (max-width: 768px) {
+    #header {
+        height: auto;
+        padding: 10px;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    }
+
+    #burguer {
+        display: block;
+        color: white;
+        background-color: #545454;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #burguer:hover {
+        background-color: white;
+        color: #545454;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline;
+        color: whitesmoke;
+    }
+
+    #burguer.active + #menu {
+        display: flex;
+    }
+}
